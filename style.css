@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(235, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 1px 0;
+}
+
+.post {
+    width: 34%;
+    margin: 50px auto;      
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    margin-left: 12px;
+}
+
+.right {
+    margin-right: 12px;
+    color: rgb(148, 148, 148);
+}
+
+.post-img img {
+    width: -webkit-fill-available;
+}
+
+.post-body p{
+    font-size: 14px;
+    margin: 0 25px;
+    padding: 10px 0;
+}
